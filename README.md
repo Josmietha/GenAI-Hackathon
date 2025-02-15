@@ -1,1 +1,5 @@
 # GenAI-Hackathon
+# AI Resume Generator
+
+The AI Resume Generator is a web-based application built using **Streamlit** and **Hugging Face Transformers**, designed to generate professional resumes based on user input. The project allows users to enter their **name, skills, experience, education, and career goals**, and uses a **pretrained AI model (GPT-2)** to generate a structured resume. The resume can be viewed, edited, and downloaded as a text file. The application is deployed in **Google Colab** and can be accessed via a public URL using **LocalTunnel**. To run the project, install dependencies using `pip install transformers streamlit huggingface_hub`, execute `streamlit run app.py` in the command line, and follow the generated link to access the interface. The project leverages **Hugging Face API** for text generation and includes an option to upload resumes to a **Hugging Face Dataset Repository** for storage and sharing. This ensures a seamless and automated resume creation experience.
+
